@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minetroller</title>
+    <style>
+        /* Inline styles for simplicity */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+
+        header {
+            background: #2c2c2c;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #61dafb;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #61dafb;
+        }
+
+        .libraries ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #61dafb;
+            color: #1e1e1e;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #2c2c2c;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://imgur.com/lt20Qw5.png" alt="Minetroller Logo">
+        <h1>Minetroller</h1>
+        <p>Your bridge to controlling Minecraft with real-life movements!</p>
+        <nav>
+            <a href="#download">Download</a>
+            <a href="#libraries">Required Libraries</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section id="download">
+        <h2>Download Minetroller</h2>
+        <p>Download the latest version of Minetroller and get started today!</p>
+        <a href="https://raw.githubusercontent.com/Minetroller-Official/minetrollerfile/refs/heads/main/minetroller1-0.py" 
+           class="btn-primary" 
+           download>Download Minetroller</a>
+    </section>
+
+    <section id="libraries" class="libraries">
+        <h2>Required Libraries</h2>
+        <p>Ensure you have the following libraries installed before using Minetroller:</p>
+        <ul>
+            <li><code>cv2</code></li>
+            <li><code>mediapipe</code></li>
+            <li><code>pyautogui</code></li>
+            <li><code>torch</code></li>
+            <li><code>torch.nn</code></li>
+            <li><code>torch.optim</code></li>
+            <li><code>numpy</code></li>
+            <li><code>json</code></li>
+            <li><code>tkinter</code></li>
+            <li><code>sklearn.preprocessing</code></li>
+            <li><code>sklearn.decomposition</code></li>
+            <li><code>threading</code></li>
+            <li><code>multiprocessing</code></li>
+            <li><code>logging</code></li>
+            <li><code>os</code></li>
+            <li><code>time</code></li>
+            <li><code>PIL</code></li>
+        </ul>
+        <p>You can install these using <code>pip</code>:</p>
+        <pre>pip install opencv-python mediapipe pyautogui torch scikit-learn pillow</pre>
+    </section>
+
+    <section id="about">
+        <h2>About Minetroller</h2>
+        <p>Minetroller is a revolutionary application that lets you control Minecraft with real-life movements! 
+        It uses advanced pose detection and machine learning techniques to interpret your gestures into Minecraft actions.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Minetroller Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
